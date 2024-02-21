@@ -15,6 +15,10 @@ services:
 
   db:
     image: postgres:alpine
+    volumes:
+      # binds to local directory maybe
+      - ~/apps/postgres:/var/lib/postgresql/data
+    
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: mypassword
