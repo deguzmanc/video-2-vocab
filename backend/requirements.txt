@@ -8,6 +8,8 @@ django-cors-headers==4.3.1
 django-htmx==1.17.2
 exceptiongroup==1.2.0
 executing==2.0.1
+ffmpeg-python==0.2.0
+future==1.0.0
 ipykernel==6.29.2
 ipython==8.21.0
 jedi==0.19.1
